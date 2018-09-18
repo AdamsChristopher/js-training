@@ -16,6 +16,10 @@ function multiply(a, b) {
   let aneg = a < 0
   let bneg = b < 0
 
+  if (a == 0 || b == 0) {
+    return 0;
+  }
+
   if (a < 0) {
     a = -a;
   }
