@@ -8,7 +8,8 @@
  */
 
 // Your code :
-const escapeStr = ['/', '\\', '`', '"', ''']
+// = ['/', '\\', '`', '"', '\'']
+ const escapeStr = 'hjkh!09)=/\\`"\'';
 
 //* Begin of tests
 const assert = require('assert')
@@ -18,5 +19,5 @@ assert.strictEqual(escapeStr.includes("'"), true)
 assert.strictEqual(escapeStr.includes('"'), true)
 assert.strictEqual(escapeStr.includes('`'), true)
 assert.strictEqual(escapeStr.includes('/'), true)
-assert.strictEqual(escapeStr.includes('\\'), true)
+assert.strictEqual(escapeStr.includes('\\'), true)  
 // End of tests */
